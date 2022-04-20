@@ -1,0 +1,56 @@
+section#main {
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+}
+
+a {
+	display: inline-block;
+	color: black;
+	font-style: italic;
+	width: 100%;
+}
+
+#nav {
+	padding: 10px;
+	position: fixed;
+	height: 100%;
+	width: 300px;
+}
+
+ul {
+	list-style: none;
+	border: none;
+}
+
+li.list-group-item.active {
+	background-color: #ffc107;
+	border-color: white;
+}
+
+li.list-group-item.active a {
+	color: white;
+	font-weight: 600;
+}
+
+
+
+ul.submenu li.list-group-item {
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+div#content {
+	width: 85%;
+	margin-left: 300px;
+}
+
+div#content div {
+	width : 100%;
+	height: auto;
+}
+
+div#content div img {
+	margin-left: 10%;
+	max-width: 80%;
+}
