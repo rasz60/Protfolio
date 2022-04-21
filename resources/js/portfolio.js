@@ -33,10 +33,10 @@ $(document).scroll(function(e) {
 	}
 });
 
-
-var width = $(window).width();
-
-collapse(width);
+$(document).ready(function() {
+	var width = $(window).width();
+	collapse(width);
+});
 
 $(window).resize(function() {
 	var e_width = $(window).width();
